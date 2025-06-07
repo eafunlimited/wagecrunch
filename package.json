@@ -1,0 +1,46 @@
+{
+  "name": "wagecrunch",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Hourly to salary and after-tax calculator with cost-of-living adjustments",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext .js",
+    "analyze": "vite-bundle-analyzer"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.1",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@netlify/functions": "^2.4.1",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.56.0",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.0",
+    "vite": "^6.3.5",
+    "vite-bundle-analyzer": "^0.8.1",
+    "vite-plugin-compression": "^0.5.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ],
+  "keywords": [
+    "salary",
+    "calculator",
+    "tax",
+    "wages",
+    "hourly",
+    "cost-of-living"
+  ],
+  "author": "Everworld Industries",
+  "license": "UNLICENSED"
+}
